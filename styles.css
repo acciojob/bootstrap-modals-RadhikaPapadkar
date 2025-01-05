@@ -1,2 +1,46 @@
+/* Centering the Modal Vertically */
+.modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Optional: Adding some custom styles to the modal content */
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Customizing the Modal Header */
+.modal-header {
+    background-color: #6200ea;
+    color: white;
+    border-bottom: none;
+    text-align: center;
+}
+
+/* Customizing the Modal Footer */
+.modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+/* Customizing the Button */
+#open-modal {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#open-modal:hover {
+    background-color: #3700b3;
+    cursor: pointer;
+}
 
 /* Your CSS Code here. */
